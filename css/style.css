@@ -1,0 +1,133 @@
+﻿body {
+    padding-top: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+    color: #47adcb;
+}
+
+.imageMain:hover{
+    opacity: .8;
+}
+
+.divider {
+    background-image: url(../img/divider-pattern.png);
+    background-repeat: repeat-x;
+    height: 40px;
+    width: 100%;
+}
+
+/* Navigation Style */
+.str {
+    font-size: 15px;
+}
+.nav{
+    height: 70%;
+}
+/* Caorusel Style*/
+.carousel-caption p {
+    line-height: 1.5;
+}
+
+.carousel-caption p {
+    line-height: 1.5;
+}
+
+.navbar-inverse .brand {
+    font-family: 'Qanelas-Heavy', sans-serif;
+    font-size: 32px;
+    text-align: right;
+    color: darkgoldenrod;
+}
+.brand :hover{
+    color:snow;
+}
+
+
+@font-face {
+    font-family: 'Qanelas-Heavy';
+    src: url('../font/Qanelas-Heavy.ttf') format('truetype');
+}
+.carousel img {
+    width: 100%;
+    height: 1080px;
+}
+
+.carousel-caption {
+    background: none;
+    max-width: 1080px;
+    top: 150px;
+    padding: 0 200px;
+}
+
+    .carousel-caption h1 {
+        text-shadow: 0px 2px #222;
+    }
+
+    .carousel-caption a {
+        margin-top: 20px;
+    }
+
+
+/* Page Style*/
+
+#heading, #screenshots, #features, #download {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#about {
+    padding: 50px 0;
+}
+
+
+    #about p{
+        text-indent: 35px;
+    }
+
+.obivan {
+    margin-top: 0;
+}
+
+#screenshots h1 {
+    padding-bottom: 30px;
+}
+
+matginSpace{
+    margin:20px,0,20px,0;
+}
+/* Footer style */
+footer {
+    background-color: #1b1b1b;
+    color: #999999;
+}
+
+    footer .span12 {
+        text-align: center;
+    }
+
+    #features img{
+        position:center;
+    }
+
+#social li a {
+    display: block;
+    height: 32px;
+    width: 32px;
+}
+
+    #social li a:hover.fa-vk {
+        opacity: .8;
+    }
+
+    #social li a:hover.fa-twitter {
+        opacity: .8;
+    }
+
+    #social li a:hover.fa-instagram {
+        opacity: .8;
+    }
